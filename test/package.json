@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "postinstall": "snowpack",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "snowpack": "2.0.0-beta.25",
+    "snowpack-plugin-vue-2": "..",
+    "vue": "2.6.11",
+    "vuetify": "2.2.28"
+  }
+}
