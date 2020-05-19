@@ -1,7 +1,7 @@
 const fs = require("fs");
 const hashsum = require("hash-sum");
 const compiler = require("vue-template-compiler");
-const { compileTemplate } = require('@vue/component-compiler-utils');
+const { compileTemplate, compileStyleAsync } = require('@vue/component-compiler-utils');
 
 module.exports = function plugin(config, pluginOptions) {
   return {
@@ -26,7 +26,7 @@ module.exports = function plugin(config, pluginOptions) {
 
       let cssResult;
       for (const stylePart of descriptor.styles) {
-        const styleCode = await compiler.compileStyleAsync({
+        const styleCode = await compileStyleAsync({
           filename: filePath,
           source: stylePart.content,
           id: `data-v-${id}`,

@@ -6,8 +6,9 @@
   },
   "devDependencies": {
     "parcel-bundler": "1.12.4",
+    "sass": "1.26.5",
     "snowpack": "2.0.0-beta.25",
-    "snowpack-plugin-vue-2": "..",
+    "snowpack-plugin-vue-2": "../snowpack-plugin-vue-2-0.1.0.tgz",
     "vue": "2.6.11",
     "vuetify": "2.2.28"
   }
