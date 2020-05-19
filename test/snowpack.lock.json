@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "vue-router": "https://cdn.pika.dev/pin/vue-router@v3.1.6-28LIL02KwNgWBE7iNSqn/vue-router.js"
+  }
+}
