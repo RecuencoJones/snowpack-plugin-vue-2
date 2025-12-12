@@ -11,7 +11,7 @@
     "snowpack-plugin-vue-2": "../snowpack-plugin-vue-2-0.1.0.tgz",
     "stylus": "0.54.7",
     "vue": "2.6.11",
-    "vuetify": "2.2.28"
+    "vuetify": "3.0.0"
   },
   "webDependencies": {
     "vue-router": "^3.1.6"
